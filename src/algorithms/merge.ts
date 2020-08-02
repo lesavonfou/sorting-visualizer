@@ -1,3 +1,5 @@
+import { StepGenerator } from 'utils'
+
 function* mergeUp(a: number[]): StepGenerator {
 
     let accesses = 0

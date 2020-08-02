@@ -1,3 +1,5 @@
+import { StepGenerator } from 'utils'
+
 function* selection(a: number[]): StepGenerator {
     let accesses = 0
     let comparisons = 0

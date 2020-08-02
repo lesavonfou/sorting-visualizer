@@ -1,0 +1,33 @@
+{
+  "name": "sorting-visualizer",
+  "version": "0.0.1",
+  "description": "Visualizing sorting algorithms on the web",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.1",
+    "chai": "^4.2.0",
+    "thai": "^1.1.2",
+    "ts-node": "^8.10.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'tests/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesavonfou/sorting-visualizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lesavonfou/sorting-visualizer/issues"
+  },
+  "homepage": "https://github.com/lesavonfou/sorting-visualizer#readme"
+}

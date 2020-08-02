@@ -3,12 +3,14 @@
         "lib": ["dom", "es6", "es7"],
         "noFallthroughCasesInSwitch": true,
         "noImplicitReturns": true,
-        "noUnusedLocals": true,
+        "noUnusedLocals": false,
         "noUnusedParameters": true,
+        "module": "amd",
         "outFile": "src/bundle.js",
         "removeComments": true,
         "strict": true,
-        "target": "es6"
+        "target": "es6",
+        "types": ["mocha"]
     },
     "include": [ // defines order of compilation (TODO: not a scalable option)
         "src/utils.ts",

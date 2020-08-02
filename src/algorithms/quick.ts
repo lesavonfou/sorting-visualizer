@@ -1,3 +1,5 @@
+import { StepGenerator, randomInt } from 'utils'
+
 function* quickHoare(a: number[]): StepGenerator {
 
     let accesses = 0

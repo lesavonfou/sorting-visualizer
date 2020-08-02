@@ -1,3 +1,4 @@
+import { newElt, RunningAlgorithm } from 'utils'
 // (temp)
 const barCount = 2**7
 const msPerStep = 20 // => 50 steps per second

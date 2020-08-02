@@ -1,3 +1,4 @@
+import { StepGenerator, ColorInfo, NumberRange, StepInfo } from 'utils'
 // The colors must be unique (since the keys in a ColorInfo object need to be
 // unique) but I can't be bothered to find many different colors. So I reused
 // them. To make them unique I made tiny changes to the blue channel (to which

@@ -1,3 +1,5 @@
+import { StepGenerator } from 'utils'
+
 function* shell(a: number[]): StepGenerator {
 
     let accesses = 0

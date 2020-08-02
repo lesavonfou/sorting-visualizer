@@ -1,3 +1,5 @@
+import { StepGenerator } from 'utils'
+
 function* comb(a: number[]): StepGenerator {
     let accesses = 0
     let comparisons = 0
